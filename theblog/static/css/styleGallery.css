@@ -1,0 +1,41 @@
+.pipec{
+    background: lightcoral;
+}
+.jumbotron{
+    background: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    margin-left: 50%;
+    transform: translate(-50%);
+
+}
+.jumbotron img{
+    width: 47%;
+    margin:2rem;
+}
+nav{
+    display: grid;
+    grid-template-columns:10% 40% 50% 1% ;
+    min-height: 10vh;
+    color:white;
+    align-items: center;
+
+}
+
+#logo{
+    grid-column: 2/3;
+    font-size: 28px;
+}
+.nav img{
+    justify-self: end;
+    width: 10px;
+    height: 10px;
+}
+
+@media screen and (max-width:992px) {
+    .jumbotron img{
+        width: 44%;
+    }
+    .jumbotron img{
+        margin: 0.5rem;
+    }
+}

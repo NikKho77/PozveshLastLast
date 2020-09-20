@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contactDiv{
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.contactInfo{
+    height: 60vh;
+    width: 80%;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.contactImg{
+    height: 100%;
+    width: 49%;
+    float: right;
+    overflow: hidden;
+}
+.contactImg img{
+    height: 100%;
+    width: 90%;
+    object-fit: cover;
+}
+.contactText{
+    float:left;
+    font-size: 48px;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    margin-top: 5%;
+}
+.contactText p{
+    margin-top:3%;
+}
+
+/*nav{
+    display: grid;
+    grid-template-columns:10% 1fr 1fr 10% ;
+    min-height: 10vh;
+    color:white;
+    align-items: center;
+
+}
+
+#logo{
+    grid-column: 2/3;
+    font-size: 28px;
+}
+.nav img{
+    justify-self: end;
+    width: 10px;
+    height: 10px;
+}*/
+
+.footerMain1{
+    width: 100%;
+    text-align: center;
+
+
+}
+.footerMain1 img{
+    height:5vh;
+    opacity:0.8;
+}
+.footerMain a{
+
+
+}
+
+
+@media screen and (max-width:992px) {
+    .contactInfo{width: 90%;
+    }
+    .contactInfo{height: 80%;}
+    .contactImg{width: 100%;}
+    .contactImg{float: left;}
+    .contactImg{height: 100%;}
+    .contactImg img{width: 100%;}
+    .contactImg img{height:60% ;}
+    .contactImg img{padding-top:0%;}
+    .contactText{font-size: 20px;}
+    .contactText{float: right;}
+    .contactText{width: 100%;}
+    .contactText{height: 30%;}
+    .contactText p {
+        margin: 0;
+    }
+    .footerMain1{
+    position:absolute;
+    top:100%;}
+    .footerMain1 img{
+    height:5vh;}
+}

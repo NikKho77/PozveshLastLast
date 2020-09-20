@@ -1,0 +1,111 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Podkova:wght@600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Nunito+Sans:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Cabin&family=Exo+2:wght@800&family=Nunito+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/styleGallery.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div id="blueimp-gallery" class="blueimp-gallery">
+        <!-- The container for the modal slides -->
+        <div class="slides"></div>
+        <!-- Controls for the borderless lightbox -->
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+        <!-- The modal dialog, which will be used to wrap the lightbox content -->
+        <div class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body next"></div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default pull-left prev">
+                            <i class="glyphicon glyphicon-chevron-left"></i>
+                            Previous
+                        </button>
+                        <button type="button" class="btn btn-primary next">
+                            Next
+                            <i class="glyphicon glyphicon-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron" height="200px" overflow="hidden" class="pipec">
+    <div id="links" height="200px">
+
+        <a href="../static/img/forG/pg1.jpg" title="Banana" data-gallery>
+            <img src="../static/img/forG/pg1.jpg" alt="" width="335px;" class="lp1">
+        </a>
+        <a href="../static/img/forG/pg2.jpg" title="Banana" data-gallery>
+            <img src="../static/img/forG/pg2.jpg" alt="" width="335px;" class="lp1">
+        </a>
+        <a href="../static/img/forG/pg3.jpg" title="Banana" data-gallery>
+            <img src="../static/img/forG/pg3.jpg" alt="" width="335px;" class="lp1">
+        </a>
+        <a href="../static/img/forG/pg4.jpg" title="Banana" data-gallery>
+            <img src="../static/img/forG/pg4.jpg" alt="" width="335px;" class="lp1">
+        </a>
+        <a href="../static/img/forG/pg5.jpg" title="Banana" data-gallery>
+            <img src="../static/img/forG/pg5.jpg" alt="" width="335px;" class="lp1">
+        </a>
+        <a href="../static/img/forG/pg6.jpg" title="Banana" data-gallery>
+            <img src="../static/img/forG/pg6.jpg" alt="" width="335px;" class="lp1">
+         </a>
+        <a href="../static/img/forG/pg7.jpg" title="Banana" data-gallery>
+            <img src="../static/img/forG/pg7.jpg" alt="" width="335px;" class="lp1">
+        </a>
+        <a href="../static/img/forG/pg8.jpg" title="Banana" data-gallery>
+        <img src="../static/img/forG/pg8.jpg" alt="" width="335px;" class="lp1">
+    </a>
+        <a href="../static/img/forG/pg9.jpg" title="Banana" data-gallery>
+            <img src="../static/img/forG/pg9.jpg" alt="" width="335px;" class="lp1">
+        </a>
+        <a href="../static/img/forG/pg10.jpg" title="Banana" data-gallery>
+            <img src="../static/img/forG/pg10.jpg" alt="" width="335px;" class="lp1">
+        </a>
+        <a href="../static/img/forG/pg11.jpg" title="Banana" data-gallery>
+            <img src="../static/img/forG/pg11.jpg" alt="" width="335px;" class="lp1">
+        </a>
+        <a href="../static/img/forG/pg12.jpg" title="Banana" data-gallery>
+            <img src="../static/img/forG/pg12.jpg" alt="" width="335px;" class="lp1">
+        </a>
+        <a href="../static/img/forG/pg13.jpg" title="Banana" data-gallery>
+            <img src="../static/img/forG/pg13.jpg" alt="" width="335px;" class="lp1">
+        </a>
+        <a href="../static/img/forG/pg14.jpg" title="Banana" data-gallery>
+            <img src="../static/img/forG/pg14.jpg" alt="" width="335px;" class="lp1">
+        </a>
+        <a href="../static/img/forG/pg15.jpg" title="Banana" data-gallery>
+            <img src="../static/img/forG/pg15.jpg" alt="" width="335px;" class="lp1">
+        </a>
+        <a href="../static/img/forG/pg16.jpg" title="Banana" data-gallery>
+            <img src="../static/img/forG/pg16.jpg" alt="" width="335px;" class="lp1">
+        </a>
+
+    </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="js/bootstrap-image-gallery.min.js"></script>
+</body>
+{% endblock %}

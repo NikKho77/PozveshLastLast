@@ -1,0 +1,108 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Document</title>
+</head>
+<body>
+   <div class="portfolio">
+    <header>
+<main>
+     <section class="FlatPhoto">
+                <div class="details">
+                    <img src="../static/img/photo2.jpg" alt=""/>
+                    <h1 class="headline">Дуэт</br>FlatWhite</h1>
+                </div>
+            </section>
+            <!--Text1 Area-->
+           <div class="textHolder">
+                <div class="Text1div">
+                    <p>
+                        Приветствуем вас! Мы - Вокальный дуэт FlatWhite, в составе которого Евгений Шведак и Катерина Гончарова: профессиональные вокалисты, участники многочисленных фестивалей, конкурсов и телепроектов, таких как Шанс, Шоу №1, Х-фактор, Голос Країни! Наш трек-лист включает в себя более 200 хитовых композиций: это топовые мировые хиты, украинская музыка, дискотека 80-90-х, формат лаунж. Мы постоянно работаем над собой, обновляя репертуар, следя за музыкальными новинками и тенденциями. Индивидуальный подход к каждому мероприятию и любовь к своему делу – для нас всегда на первом месте! С нами атмосферно, весело и стильно. Мы гарантируем высокое качество своей работы и достойное сотрудничество!
+                    </p>
+                </div>
+            </div>
+            <!--MiniGallery-->
+            <!--<section class="MiniGallery">-->
+                <div class="MiniGalleryDiv">
+                    <div class="img-container">
+                        <img
+                            src="../static/img/MiniGallerySet/MiniGalleri1.jpg"
+                            alt=""
+                            data-original="MiniGalleri11.jpg"
+                        />
+                    </div>
+                    <div class="img-container">
+                        <img
+                            src="../static/img/MiniGallerySet/MiniGalleri2.jpg"
+                            alt=""
+                            data-original="MiniGalleri22.jpg"
+                        />
+                    </div>
+                    <div class="img-container">
+                        <img
+                            src="../static/img/MiniGallerySet/MiniGallery3.jpg"
+                            alt=""
+                            data-original="MiniGallery33.jpg"
+                        />
+                    </div>
+                    <div class="img-container">
+                        <img
+                            src="../static/img/MiniGallerySet/MiniGalleri4.jpg"
+                            alt=""
+                            data-original="MiniGalleri44.jpg"
+                        />
+                    </div>
+                </div>
+                <div class="modal">
+                    <img src="./MiniGalleriSetOrigin/MiniGalleri22.jpg" alt="" class="full-img" />
+                </div>
+           <!-- </section>-->
+           <!--Music-->
+        <div class="maskClass">
+           <div class="musicMain">
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/874108633&color=%23cb0d0a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/evgeniy-shvedak" title="Дуэт FlatWhite" target="_blank" style="color: #cccccc; text-decoration: none;">Дуэт FlatWhite</a> · <a href="https://soundcloud.com/evgeniy-shvedak/aint-nobody-felix-jaehn" title="Ain&#x27;t Nobody (Felix Jaehn)" target="_blank" style="color: #cccccc; text-decoration: none;">Ain&#x27;t Nobody (Felix Jaehn)</a></div>
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/874107292&color=%23cb0d0a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/evgeniy-shvedak" title="Дуэт FlatWhite" target="_blank" style="color: #cccccc; text-decoration: none;">Дуэт FlatWhite</a> · <a href="https://soundcloud.com/evgeniy-shvedak/shape-of-you-ed-sheeran" title="Shape Of You (Ed Sheeran)" target="_blank" style="color: #cccccc; text-decoration: none;">Shape Of You (Ed Sheeran)</a></div>
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/874106584&color=%23cb0d0a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/evgeniy-shvedak" title="Дуэт FlatWhite" target="_blank" style="color: #cccccc; text-decoration: none;">Дуэт FlatWhite</a> · <a href="https://soundcloud.com/evgeniy-shvedak/gluboko-monatik-ft-dorofeeva" title="Глубоко (Monatik Ft. Dorofeeva)" target="_blank" style="color: #cccccc; text-decoration: none;">Глубоко (Monatik Ft. Dorofeeva)</a></div>
+           </div>
+           <div class="videoMain">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LdEuIDDE4a4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VnSKa2TUJSw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>
+         </div>
+           <!--Contacts-->
+
+
+                <!--end-->
+
+        </main>
+
+    </header>
+
+    <div class="slider"></div>
+    </div>
+    <div class="greyFooter">
+        <div class="ContactsMainDiv">
+            <p>+38(096) 496 88 77 Евгений</p>
+            <p>+38(063) 280 90 17 Катерина</p>
+            <p>duetflatwhite@gmail.com</p>
+        </div>
+        <div class="footerMain">
+            <a href="https://www.instagram.com/duet.flatwhite/?igshid=1obeqmv8ocnar" class="socialIcon"><img src="../static/img/Icons/instagramIcon.png"/></a>
+            <a href="https://www.youtube.com/channel/UCw47TmltEDl6vBdgt1gb-lg" class="socialIcon"><img src="../static/img/Icons/youtubeIcon.png"/></a>
+            <a href="https://www.facebook.com/shvedakmusic/" class="socialIcon"><img src="../static/img/Icons/facebookIcon.png"/></a>
+        </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script src="../static/js/app.js"></script>
+</body>
+
+{% endblock %}

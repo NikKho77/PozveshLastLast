@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+.detailsMan{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.detailsWoman{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.detailsMan img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.detailsWoman img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.detailsMan::after{
+    content: "";
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0.3;
+    top: 0;
+}
+
+.detailsWoman::after{
+    content: "";
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0.3;
+    top: 0;
+}
+.repname{
+position:relative;
+
+
+color:white;
+font-size:52px;
+text-align:center;
+}
+@media screen and (max-width:992px) {
+.repname{
+    font-size:32px;
+}
+}

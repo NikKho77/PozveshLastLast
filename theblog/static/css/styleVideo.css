@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.MainVideo{
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0, 0, 0.1);
+}
+.VideoDiv{
+    width: 100%;
+    height: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+.VideoDiv iframe{
+    width: 49%;
+}
+
+@media screen and (max-width: 992px) {.VideoDiv iframe{width:100%;}.VideoDiv{padding-left:5%;}.VideoDiv{padding-right:5%;}}
